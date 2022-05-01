@@ -121,10 +121,12 @@ h1{
   margin: 30px auto;
   position: relative;
   transition: all 0.2s ease-in;
-  box-shadow: 0px 5px 20px #7c7c7c;
+  box-shadow: 15px 15px 10px #bfbfbf59;
 }
 .threeCards:hover{
   transform: scale(1.1);
+  box-shadow: 10px 10px 30px #bfbfbf59;
+
 }
 .header{
   height: 200px;
@@ -145,10 +147,9 @@ h1{
   font-size: 40px;
 }
 .type{
-  height: 120px;
+  height: 90px;
   width: 300px;
-  background:#1cb4da;
-  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+  background:#3ed4f9;
   position: absolute;
   top: 0;
 }
