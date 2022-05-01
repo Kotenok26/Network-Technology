@@ -67,7 +67,7 @@ h1{
 /* 1 banniere */
 #ban1{
   position: relative;
-  background: url('img/banniere.jpg');
+  background: url('img/Banniere.jpg');
   background-position: right;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -91,7 +91,7 @@ h1{
 #ban2{
   position: relative;
   min-height: 300px;
-  background: url('img/Banniere0.jpg');
+  background: url('img/banniere0.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
