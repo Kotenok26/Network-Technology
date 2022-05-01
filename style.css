@@ -1,0 +1,265 @@
+/* header */
+
+header{
+  background: url('img/bgphotshop.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+}
+.text-intro{
+  padding-top: 250px;
+  padding-bottom: 200px;
+}
+.preTxt{
+  font-size: 50px;
+  margin: 0;
+  color: #1cb4da;
+  line-height: 0.5;
+}
+h1{
+  font-size: 70px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  color: #fff;
+  font-family: 'Kanit';
+  font-weight: 700;
+}
+
+/* nav */
+#main-nav{
+  transition: all 1s ease;
+}
+.navbar-brand{
+  font-size: 25px!important;
+  font-family: 'Kanit'!important;
+  transition: all 0.4s ease;
+}
+.navbar a{
+  color: #ffffff!important;
+  font-family: 'Raleway';
+  font-size: 18px;
+  justify-content: flex-end;
+  font-weight: 500;
+  transition: all 0.4s ease;
+
+}
+.navbar.opaque .navbar-brand{
+  font-size: 20px!important;
+  transition: all 0.4s ease;
+}
+.navbar.opaque a{
+  font-size: 16px;
+}
+
+
+
+/*  Apropos */
+#apropos{
+  margin-top: 75px;
+  padding-bottom: 75px;
+  border-bottom: 1px dashed #000;
+}
+/* 3 icones */
+#icones{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+/* 1 banniere */
+#ban1{
+  position: relative;
+  background: url('img/banniere.jpg');
+  background-position: right;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+/* Galerie */
+#galerie{
+  padding-bottom: 100px;
+}
+.h2Photos{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: 'Kanit';
+  font-size: 70px;
+}
+#galerie .container p{
+  padding-bottom: 40px;
+}
+
+/* 2 banniere */
+#ban2{
+  position: relative;
+  min-height: 300px;
+  background: url('img/Banniere0.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+#carouselContent{
+  margin-top: 70px;
+  font-size: 30px;
+  font-style: italic;
+  color: #fff;
+  font-weight: 400;
+}
+
+/* Cartes */
+
+.offreH{
+  font-size: 70px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  font-family: 'Kanit';
+}
+#cartes{
+  padding: 50px 0 100px 0;
+}
+.threeCards{
+  width: 300px;
+  height: 520px;
+  margin: 30px auto;
+  position: relative;
+  transition: all 0.2s ease-in;
+  box-shadow: 0px 5px 20px #7c7c7c;
+}
+.threeCards:hover{
+  transform: scale(1.1);
+}
+.header{
+  height: 200px;
+  width: 300px;
+  position: relative;
+  background: #1cb4da50;
+}
+.header h2{
+  margin: 0;
+  position: relative;
+  top: 130px;
+  text-align: center;
+  font-family: 'Raleway';
+  font-size: 15px;
+}
+#spanPrix{
+  font-family: 'Kanit';
+  font-size: 40px;
+}
+.type{
+  height: 120px;
+  width: 300px;
+  background:#1cb4da;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+  position: absolute;
+  top: 0;
+}
+.type h2{
+  margin: 0;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Kanit';
+  font-size: 30px;
+  position: relative;
+  top: 30px;
+}
+.details{
+  background-color: #1cb4da54;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-family: 'Raleway';
+  transition: all 0.2s ease-in;
+}
+.details:hover{
+  background: rgba(181,208,230,0.1);
+}
+#btn{
+  background-color: #ffffff;
+  height: 80px;
+}
+#btn a{
+  text-decoration: none;
+  font-family: 'Raleway';
+  height: 50px;
+  width: 120px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  line-height: 50px;
+  position: relative;
+  top: 10px;
+  border-radius: 30px;
+  border: 1px solid #22a7f0;
+  transition: all 0.2s ease-in;
+
+}
+#btn a:hover{
+  background-color: rgba(6,136,206,0.8);
+  color:#fff;
+}
+/* Progress */
+#progress{
+  border-top: 1px dashed #000;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+/* clients */
+#clients{
+  border-top: 1px dashed #000;
+  border-bottom: 1px solid #000;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* contact */
+
+#contact{
+  background-color: #1cb4da56;
+}
+/* medias queries */
+
+@media screen and (max-width: 800px){
+  header{
+    height: 75vh;
+  }
+  .text-intro{
+    padding-top: 250px;
+    padding-bottom: 200px;
+  }
+
+  .preTxt{
+    font-size: 40px;
+  }
+  h1{
+    font-size: 81px;
+  }
+}
+@media screen and (max-width: 762px){
+#progress{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  }
+  .competences{
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 500px){
+  header{
+    height: 55vh;
+  }
+  .text-intro{
+    padding-top: 150px;
+  }
+  .text-intro a{
+    transform: scale(0.8);
+  }
+  .navbar-brand{
+    font-size: 16px!important;
+  }
+  .preTxt{
+    font-size: 35px;
+    line-height: 40px;
+  }
+  h1{
+    font-size: 55px;
+  }
+}
+
